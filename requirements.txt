@@ -2,6 +2,7 @@ ipykernel
 setuptools
 pandas
 numpy
+dotenv
 matplotlib
 plotly
 seaborn
