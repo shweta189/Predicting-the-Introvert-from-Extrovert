@@ -11,7 +11,7 @@ ARTIFACT_DIR: str ="artifact"
 
 MODEL_FILE_NAME = "model.pkl"
 
-TARGET_COLUMN = "Personality"
+TARGET_COLUMN = "Personality" 
 CURRENT_YEAR = date.today().year 
 PREPROCESSING_OBJECT_FILE_NAME = 'preprocessing.pkl' 
 

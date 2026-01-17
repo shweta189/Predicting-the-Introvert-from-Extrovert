@@ -82,7 +82,7 @@ class DataValidation:
             column_names = ['Time_spent_Alone', 'Stage_fear', 'Social_event_attendance', 
                        'Going_outside', 'Drained_after_socializing', 'Friends_circle_size', 
                        'Post_frequency', 'Personality']
-            return pd.read_csv(file_path,names=column_names,header=0)
+            return pd.read_csv(file_path,names=column_names,header=None)
         except Exception as e:
             raise MyException(e,sys)
         

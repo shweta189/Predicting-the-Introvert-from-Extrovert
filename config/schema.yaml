@@ -3,9 +3,9 @@ columns:
   - Stage_fear: object
   - Social_event_attendance: float
   - Going_outside: float
-  - Drained_after_socializing: float
+  - Drained_after_socializing: object
   - Friends_circle_size: float
-  - Post_frequency: object
+  - Post_frequency: float
   - Personality: object
 
 
@@ -18,8 +18,10 @@ numerical_columns:
 
 categorical_columns:
   - Stage_fear
-  - Drained_after_socializing 
-  - Personality
+  - Drained_after_socializing
+  
+
+target_column: Personality
 
 drop_columns: _id
 
@@ -34,4 +36,4 @@ num_features:
 cat_features:
   - Stage_fear
   - Drained_after_socializing
-  - Personality
+
