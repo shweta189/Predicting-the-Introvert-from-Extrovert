@@ -65,9 +65,9 @@ The Personality Prediction Project employs machine learning algorithms to classi
     1. Log in to the AWS console, create an IAM user, and grant AdministratorAccess.
 
     2. Set AWS credentials as environment variables.
-    # For Bash
-    export AWS_ACCESS_KEY_ID="YOUR_AWS_ACCESS_KEY_ID"
-    export AWS_SECRET_ACCESS_KEY="YOUR_AWS_SECRET_ACCESS_KEY"
+        ##### For Bash
+            export AWS_ACCESS_KEY_ID="YOUR_AWS_ACCESS_KEY_ID"
+            export AWS_SECRET_ACCESS_KEY="YOUR_AWS_SECRET_ACCESS_KEY"
 
     3. Configure S3 Bucket and add access keys in constants.__init__.py.
 
