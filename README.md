@@ -42,9 +42,9 @@ The Personality Prediction Project employs machine learning algorithms to classi
 
 ### Setting Envrionment Variables
 * Set MongoDB URL:
-    # For Bash
+    ##### For Bash
         export MONGODB_URL="mongodb+srv://<username>:<password>...."
-    # For Powershell
+    ##### For Powershell
         $env:MONGODB_URL = "mongodb+srv://<username>:<password>...."
 
 * Note: On Windows, you can also set environment variables through the system settings.
